@@ -1,0 +1,81 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'fantasy', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+hr {
+  border-color: #F05F44;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #7CDFF6;
+  border-color: #7CDFF6;
+}
+
+.btn-primary:hover {
+  background-color: #76A0AA;
+  border-color: #76A0AA;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.changing-words{
+ font-family: Helvetica,Helvetica Neue,Arial,sans-serif;
+ font-size:90px;
+ font-weight:bold;
+  text-transform:uppercase;
+}
+span.firstName{
+  color:#76A0AA;
+  text-shadow: 2px 2px 4px #76A0AA;
+
+}
+span.lastName{
+  color:#76A0AA;
+  text-shadow: 2px 2px 4px #000000;
+}
+.changing-words:hover span.firstName{
+  color:#7CDFF6;
+  cursor:pointer;
+}
+
+.changing-words:hover span.lastName{
+  color:#7CDFF6;
+  cursor:pointer;
+}
